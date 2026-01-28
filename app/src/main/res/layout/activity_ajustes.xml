@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#0B1E2D">
+    <com.google.android.material.appbar.MaterialToolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbarAjustes"
+        android:title="Ajustes"
+        app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCerrarSession"
+        android:text="Cerrar sesión"
+        android:layout_marginTop="16dp"
+   />
+
+</LinearLayout>

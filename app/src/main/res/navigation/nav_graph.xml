@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/episodiosFragment">
+    <fragment
+        android:id="@+id/episodiosFragment"
+        android:name="dam.pmdm.tarea03_gazquez_nieto_francisco_javier.EpisodiosFragment"
+
+        tools:layout="@layout/fragment_episodios">
+<action
+    android:id="@+id/action_episodiosFragment_to_detalles"
+    app:destination="@id/detalles"/>
+
+</fragment>
+
+    <fragment
+        android:id="@+id/detalles"
+        android:name="dam.pmdm.tarea03_gazquez_nieto_francisco_javier.detalles"
+
+        tools:layout="@layout/fragment_detalles">
+        <argument android:defaultValue="-1"
+            android:name="episodeId"
+            app:argType="integer"/>
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/estadisticasFragment"
+        android:name="dam.pmdm.tarea03_gazquez_nieto_francisco_javier.EstadisticasFragment"
+        android:label="Estadísticas"
+        tools:layout="@layout/fragment_estadisticas"/>
+
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="dam.pmdm.tarea03_gazquez_nieto_francisco_javier.AcercaDeFragment"
+        tools:layout="@layout/fragment_acerca_de"/>
+
+
+
+
+</navigation>

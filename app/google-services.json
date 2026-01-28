@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397764778140",
+    "project_id": "tarea03gnfj",
+    "storage_bucket": "tarea03gnfj.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397764778140:android:bb887a9e6d8beebc77f559",
+        "android_client_info": {
+          "package_name": "dam.pmdm.tarea03_gazquez_nieto_francisco_javier"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu1MwspYrZJtF3Qk4KgJkPfuANdJR_wYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
